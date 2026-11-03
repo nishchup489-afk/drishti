@@ -5,7 +5,7 @@ its own PostgreSQL connection. It never writes to your real document/search
 index tables, and those temporary tables disappear when the connection closes.
 
 Run from crawler/:
-    poetry run pytest src/indexer/tests/test_final_indexer.py -v -rs
+    poetry run pytest tests/indexer/test_final_indexer.py -v -rs
 """
 
 from __future__ import annotations

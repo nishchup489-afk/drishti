@@ -1,7 +1,7 @@
 """Integration tests for crawler.robot.robots_policy.
 
 Run from the repository root (with backend and crawler importable):
-    python -m crawler.robot.tests.test_robots_policy
+    python crawler/tests/crawler/policy_and_politeness/test_robots_policy.py
 
 Uses PostgreSQL and mocked robots retrieval. All database changes are rolled back.
 Do not run against production.

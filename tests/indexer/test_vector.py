@@ -1,7 +1,7 @@
 """Tests for indexer.vector: bound, typed PostgreSQL TSVECTOR expressions.
 
 Run from crawler/:
-    poetry run pytest src/indexer/tests/test_vector.py -v
+    poetry run pytest tests/indexer/test_vector.py -v
 
 Set TEST_DATABASE_URL to enable the optional PostgreSQL execution test.
 The other tests compile SQL expressions without opening a database connection.

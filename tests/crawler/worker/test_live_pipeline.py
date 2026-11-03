@@ -11,10 +11,10 @@ PostgreSQL robots_cache. All changes in this runner's session are rolled back.
 No crawled document, frontier target, crawl attempt, or search index is stored.
 
 Run from repository root (crawler package and backend package must be importable):
-    python -m crawler.worker.tests.test_live_pipeline
+    python crawler/tests/crawler/worker/test_live_pipeline.py
 
 For a custom, explicitly approved source:
-    python -m crawler.worker.tests.test_live_pipeline \
+    python crawler/tests/crawler/worker/test_live_pipeline.py \
         --allow-host docs.python.org \
         --url https://docs.python.org/3/tutorial/
 """

@@ -1,6 +1,6 @@
 """Shared fixtures for Developer's Eye indexer tests.
 
-Run from crawler/: poetry run pytest src/indexer/tests -v
+Run from crawler/: poetry run pytest tests/indexer -v
 """
 
 from __future__ import annotations

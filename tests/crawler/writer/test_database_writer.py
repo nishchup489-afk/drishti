@@ -4,7 +4,7 @@ Runs against a DEDICATED TEST DATABASE ONLY.
 No HTTP calls. No crawler worker. Each test rolls back its seeded data.
 
 Run from crawler/:
-    poetry run pytest -v -s src/crawler/writer/tests/test_writer.py
+    poetry run pytest -v -s tests/crawler/writer/test_writer.py
 
 Prerequisite:
     Set TEST_DATABASE_URL to a PostgreSQL+asyncpg DSN whose database name

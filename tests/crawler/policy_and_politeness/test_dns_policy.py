@@ -1,10 +1,10 @@
 r"""Colorama-based offline tests for Developers Eye DNS/IP policy.
 
-Place at crawler/src/crawler/robot/tests/test_dns_policy.py
+Place at crawler/tests/crawler/policy_and_politeness/test_dns_policy.py
 
 From the developers-eye repository root (PowerShell):
     $env:PYTHONPATH = (Resolve-Path '.\crawler\src').Path
-    poetry -C crawler run python -m crawler.robot.tests.test_dns_policy
+    poetry -C crawler run python crawler/tests/crawler/policy_and_politeness/test_dns_policy.py
 
 No external DNS calls, network connections, or database are required.
 Tested against the companion dns_policy.py implementation.

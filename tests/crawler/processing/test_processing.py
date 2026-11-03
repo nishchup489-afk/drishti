@@ -6,11 +6,11 @@ Tests:
 No HTTP requests, DNS lookups, PostgreSQL connections, or crawler workers.
 
 Run from the developers-eye project root:
-    python -m unittest discover -s crawler/src/crawler/processing/tests \
+    python -m unittest discover -s crawler/tests/crawler/processing \
         -p "test_processing.py" -v
 
 Or run this file directly:
-    python crawler/src/crawler/processing/tests/test_processing.py
+    python crawler/tests/crawler/processing/test_processing.py
 """
 
 from __future__ import annotations
