@@ -1,7 +1,11 @@
 # Drishti
 
-**An open-source, polite, history-aware web crawler.** Drishti fetches pages, remembers every version of them, and tells you what changed, when, and what each page said before.
+**An open-source, polite, history-aware web crawler.**
+
 ![drishti logo](assets/logo.png)
+
+
+ Drishti fetches pages, remembers every version of them, and tells you what changed, when, and what each page said before.
 Drishti is the crawler behind [Developer's Eye](https://developers-eye.vercel.app), a developer-focused search engine. Drishti 1.0 powers it today. Drishti 2.0 is in active development, building on 1.0's codebase rather than replacing it.
 
 > **Status:** 1.0 is stable and running in production. 2.0 started on Nov 26, 2026. Everything marked 🛠 below is planned, not shipped.
