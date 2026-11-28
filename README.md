@@ -224,6 +224,8 @@ poetry run pytest tests/indexer
 
 ## Roadmap
 
+The full task-by-task checklist, with done-when criteria for each item, is in [CHECKLIST.md](CHECKLIST.md).
+
 ### Phase 1: History 🛠 *(current)*
 Conditional GET · page versions · diffs · WARC raw storage · adaptive recrawl · config files · plugin interfaces
 
